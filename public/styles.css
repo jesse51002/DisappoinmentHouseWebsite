@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+body{
+    height: 100vh;
+
+    color: white;
+}
+
+.TopBar{
+    background-color: #f0b8ea;
+    text-align: justify;
+}
+.TopBar >h1{
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: medium;
+    color: white;
+    padding: 7px 7px;
+}
+
+.main{
+    background-image: url('Assests/Banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main >b{
+    font-family: Inter, sans-serif; 
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px 0 50px 0;
+}
+
+.main >i{
+    font-family: Inter, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    padding: 50px 0 0 0;
+}
+
+/* .main >img{
+    width: 100px;
+    height: 100px;
+} */
+
+.Platforms{
+    align-self: center;
+    width: 60%;
+    flex: 0.9;
+    outline: 5px solid rgba(134, 47, 47, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.PlatformTitle{
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    background-color: rgba(115, 48, 48, 0.90);
+    text-align: center;
+    padding: 0.5vw 0;
+    width: 100%;
+    align-self: center;
+    color: pink;
+}
+
+.PlatformLinks{
+    
+    background-color: rgba(30, 0, 0, 0.75);
+    border: saddlebrown;
+    
+    align-self: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex:1;
+}
+
+.PlatformLinks >a{
+    width: 33.33%;
+    align-self: center;
+}
+
+.PlatformLinks > a> img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 1vw;
+    background: rgba(176, 134, 144, 0.5);
+}
+
+.bios > div{
+    height: 20vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.bios > div > div{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.bios > div > div >div{
+    flex: 0.9;
+    text-align: left;
+    padding: 0 5vw;
+}
+
+.bios > div > div >div >b{
+
+    font-family: Inter, sans-serif;
+    font-weight: 200;
+    font-size: 8vw;
+}
+
+.bios > div > div >div >i{
+
+    font-family: Inter, sans-serif;
+    font-weight: 100;
+    font-size: 4vw;
+
+}
+
+.bios > div > div > img{
+    padding: 2vw 2vw;
+    height: 100%;
+}
+
+

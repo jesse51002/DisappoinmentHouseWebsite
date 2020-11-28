@@ -1,0 +1,9 @@
+{
+    "Name": "Cam",
+    "BackgroundColor": "#000000",
+    "TextColor": "#318c66",
+    "ImagePos": "right",
+    "ImageBorderColor": "#000000",
+    "ImageLink": ["wym lol"],
+    "BioText": "the voice guy"
+}

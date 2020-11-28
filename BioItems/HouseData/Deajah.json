@@ -1,0 +1,9 @@
+{
+    "Name": "De'Ajah",
+    "BackgroundColor": "#235417",
+    "TextColor": "#FFFFFF",
+    "ImagePos": "Left",
+    "ImageBorderColor": "#0e2409",
+    "ImageLink": ["BioItems/DeajahImg.jpg"],
+    "BioText": "our humble editor"
+}

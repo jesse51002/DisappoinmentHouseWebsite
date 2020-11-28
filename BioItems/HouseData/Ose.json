@@ -1,0 +1,9 @@
+{
+    "Name": "Ose",
+    "BackgroundColor": "#000080",
+    "TextColor": "#9494FF",
+    "ImagePos": "Left",
+    "ImageBorderColor": "#C6C7D3",
+    "ImageLink": ["you'll get it later (or not)"],
+    "BioText": "the quiet guy"
+}

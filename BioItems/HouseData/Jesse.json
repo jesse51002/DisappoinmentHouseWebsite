@@ -1,0 +1,9 @@
+{
+    "Name": "Jesse",
+    "BackgroundColor": "#b00c0c",
+    "TextColor": "#fff7f7",
+    "ImagePos": "Left",
+    "ImageBorderColor": "#6b0000",
+    "ImageLink": ["Assests/BioItems/SkrtImage.jpg"],
+    "BioText": "the code guy"
+}
