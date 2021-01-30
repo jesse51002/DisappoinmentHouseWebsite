@@ -27,15 +27,16 @@ fetch("/bios")
                     
                     return gotData.blob();
                 }).then(blob => {
-                    div.style.backgroundImage = "url('" + URL.createObjectURL(blob)+ "')";
+                    //div.style.backgroundImage = "url('" + URL.createObjectURL(blob)+ "')";
                 }
             );
             
             const dataDiv = document.createElement("div");
             div.appendChild(dataDiv);
 
-            dataDiv.style.backgroundColor = bio.BackgroundColor + "c0";
-            dataDiv.style.color = bio.TextColor;
+            //dataDiv.style.backgroundColor = bio.BackgroundColor + "c0";
+            dataDiv.style.backgroundColor = "#b27068" + "c0";
+            dataDiv.style.color = bio.BackgroundColor;
             
             
             
